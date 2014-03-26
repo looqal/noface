@@ -1,5 +1,5 @@
 noface
 ======
 
-Idonymous data collection / social network kinda thing.
+Idonymous data sharing / social network kinda thing.
 http://noface.cf
