@@ -1,0 +1,289 @@
+* {
+
+	font-family: Monospace;
+	color: #987DDD;
+
+}
+
+body {
+	margin: 0;
+	background: #111;
+	height: 100%;
+}
+
+#container { 
+
+	left: 10px; 
+	max-width: 500px;
+	margin-bottom: 100px;
+	padding: 5px; 
+
+}
+
+#container table {
+
+	margin: 1px;
+
+}
+
+hr {
+	max-width: 100px;
+	height: 5px;
+	border: 0;
+	background: #222;
+}
+
+.btn {
+
+	font-size: 1.5em; 
+	cursor: pointer;
+	text-decoration: none;
+
+}
+.pid {
+
+	position: absolute; 
+	font-size: .6em; 
+	font-weight: bold; 
+	font-family: Tahoma; 
+	color: #789222; 
+	text-shadow: 0px 0px 1px #F0F;
+
+}
+.close {
+	font-size: .9em;
+}
+.btn:hover {
+	color: #64E0FF;
+}
+
+#maek { 
+
+	z-index: 1;
+	background: #222; 
+	display: block; 
+	position: fixed; 
+	/* right: -350px; */
+	right: 90px;
+	top: 150px;
+	padding: 15px;
+	border: 2px solid #333; border-radius: 5px;
+	transition: left 1s;
+
+}
+
+#maek input, textarea {
+
+	width: 360px !important;
+
+}
+
+.submit:hover {
+
+	background: rgba(34, 34, 34, .5);
+
+}
+
+._pic {
+
+	max-width: 400px;
+	width: 100px;
+	float: left;
+	display: block;
+	margin: 5px;
+	
+}
+
+.reqs {
+
+	background: #444; 
+	padding: 35px; 
+	list-style-type: circle; 
+	border-radius: 5px; 
+	position: absolute; 
+	right: 65px; 
+	top: 95px;
+
+}
+
+.replyprev {
+
+	display: block;
+	color: #654FFF;
+	text-decoration: none;
+	min-width: 395px;
+	padding: 5px;
+
+}
+.post tr:hover {
+	background: rgb(34, 35, 45);
+}
+
+.prewrap {
+
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	margin: 0;
+	min-width: 395px;
+
+}
+
+.snl img { border: 5px solid transparent; border-radius: 100%; }
+.snl img:hover { border-bottom: 5px solid #DDD; }
+
+.c2 { color: #888; !important; cursor: pointer; /* position: absolute; top: 2px; right: 5px; */ } 
+.c2:hover { text-decoration: underline; }
+
+#OP {
+
+	z-index: 2;
+	border-left: 3px solid #444;
+
+}
+
+.post {
+
+	min-width: 400px;
+
+	border-left: 2px solid #444;
+	background: rgb(32, 32, 32);
+	padding: 10px;
+	display: inline-block;
+	margin: 5px;
+
+}
+
+.replies {
+
+	display: block;
+	border-left: 2px solid #333;
+
+}
+.replies tr {
+
+	background: rgb(32, 32, 32);
+
+}
+.replies tr:hover {
+
+	background: rgb(35, 35, 40);
+
+}
+
+.reply {
+
+	position: relative;
+
+}
+
+.post:target, .post:hover {
+
+	background-color: rgb(35, 35, 40);
+
+}
+
+.post { font-size: 1.1em; }
+.quot { font-family: Tahoma; color: #F55; font-weight: bold;}
+.hash { font-family: Tahoma; color: #FFC555; font-weight: bold; text-decoration: none; }
+
+.meta {
+
+	float: right;
+	font-size: .8em;
+
+}
+.date {
+
+	/* position: absolute; bottom: 2px; right: 5px; */
+	font-size: .8em;
+	color: #888;
+
+}
+input, textarea {
+
+	border-style: solid;
+	border-color: #333;
+	background: #1a1a1a;
+	border-width: 1px 1px 1px 5px;
+	color: #F55;
+	outline: none;
+	padding: 10px;
+
+}
+.submit:hover {
+
+	cursor: pointer;
+
+}
+
+#nav {
+
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: rgba(34, 34, 34, .9);
+	border-top: 1px solid #2F2F2E;
+	transition: left 1s;
+
+}
+
+#nav a {
+
+	cursor: pointer;
+	text-decoration: none;
+
+}
+.srez, .srezp {
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+}
+.srez:hover, .srezp:hover {
+	color: #FFF;
+}
+.srez {
+
+}
+.srezp {
+
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #987DDD;
+
+}
+
+#nav a:hover {
+
+	text-decoration: underline;
+
+}
+
+#nav td {
+
+	padding: 5px;
+
+}
+#register, #login {
+
+	z-index: 2;
+	display: table;
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(34, 34, 34, .9);
+
+}
+#register input, #login input {
+
+	display: block;
+	margin: 50px auto;
+	font-size: 2em;
+
+}
+center[style] {
+
+	cursor: pointer;
+
+}
