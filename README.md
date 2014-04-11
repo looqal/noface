@@ -1,5 +1,5 @@
 noface
 ======
 
-Idonymous data sharing / social network kinda thing.
+Multisite platform
 http://noface.cf
